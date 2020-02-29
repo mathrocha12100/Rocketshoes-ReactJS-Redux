@@ -1,3 +1,20 @@
+# Resumo
+Aplicação web desenvolvida utilizando React.js, styled-components, Redux,Redux saga e uma api fake utilizando json-server.
+Basicamente um site de vendas de tênis.
+
+# Resultado
+
+## `Tela Principal`
+
+![](result/result1.png)
+
+
+
+## `Carrinho`
+
+![](result/result2.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
