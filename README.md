@@ -14,6 +14,9 @@ Basicamente um site de vendas de tênis.
 
 ![](result/result2.png)
 
+## `Em Pratica`
+![](result/rocketshoes.gif)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
