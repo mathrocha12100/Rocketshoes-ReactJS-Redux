@@ -41,6 +41,9 @@ export const ProductTable = styled.table`
   tbody td {
     padding: 12px;
     border-bottom: 1px solid #eee;
+    @media (max-width: 550px) {
+      padding: 4px;
+    }
   }
 
   img {
@@ -62,6 +65,9 @@ export const ProductTable = styled.table`
   div {
     display: flex;
     align-items: center;
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
 
     input {
       border: 1px solid #ddd;
