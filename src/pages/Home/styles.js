@@ -14,6 +14,12 @@ export const ProductList = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   list-style: none;
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
   li {
     display: flex;
     flex-direction: column;
@@ -26,7 +32,7 @@ export const ProductList = styled.ul`
       }
     }
 
-    &:u img {
+    img {
       align-self: center;
       max-width: 250px;
       width: auto;
